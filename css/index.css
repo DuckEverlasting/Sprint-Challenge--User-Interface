@@ -66,11 +66,16 @@ p {
     line-height: 1.4;
 }
 
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
 header .header-bar {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin: 30px 0px;
+    margin: 20px 0px 38px;
 }
 
 header .header-bar nav {
@@ -83,12 +88,18 @@ header .header-bar nav {
 
 header .header-bar nav a {
     color: black;
+    padding: 5px 5px 2px 5px;
     text-decoration: none;
 }
 
-.container {
-    width: 800px;
-    margin: 0 auto;
+header .header-bar .logo {
+    padding-bottom: 2px;
+}
+
+header .header-bar nav a:hover {
+    color: white;
+    background: black;
+    text-decoration: none;
 }
 
 header .header-img {
