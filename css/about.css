@@ -101,7 +101,7 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes div {
+.middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -110,46 +110,6 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.middle-content .boxes .box01{
-    background: teal;
-}
-
-.middle-content .boxes .box02{
-    background: gold;
-}
-
-.middle-content .boxes .box03{
-    background: cadetblue;
-}
-
-.middle-content .boxes .box04{
-    background: coral;
-}
-
-.middle-content .boxes .box05{
-    background: crimson;
-}
-
-.middle-content .boxes .box06{
-    background: forestgreen;
-}
-
-.middle-content .boxes .box07{
-    background: darkorchid;
-}
-
-.middle-content .boxes .box08{
-    background: hotpink;
-}
-
-.middle-content .boxes .box09{
-    background: indigo;
-}
-
-.middle-content .boxes .box10{
-    background: dodgerblue;
 }
 
 .bottom-content {
