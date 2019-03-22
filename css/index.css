@@ -88,7 +88,7 @@ header .header-bar nav {
 
 header .header-bar nav a {
     color: black;
-    padding: 5px 5px 2px 5px;
+    padding: 10px 25px 2px 25px;
     text-decoration: none;
 }
 
@@ -97,12 +97,19 @@ header .header-bar .logo {
 }
 
 header .header-bar nav a:hover {
-    color: white;
+    animation-name: nav-hover;
+    animation-duration: .5s;
     background: black;
-    text-decoration: none;
+    color: white;
+}
+
+@keyframes nav-hover {
+    from {background: white; color: black;}
+    to {background: black; color: white;}
 }
 
 header .header-img {
+    width: 100%;
     margin-bottom: 20px;
 }
 

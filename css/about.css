@@ -111,6 +111,7 @@ header .header-bar nav a:hover {
 
 header .header-img {
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .top-content {
@@ -173,10 +174,6 @@ header .header-img {
 
 .bottom-content .text-container {
     padding-right: 4%;
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
 }
 
 footer {
