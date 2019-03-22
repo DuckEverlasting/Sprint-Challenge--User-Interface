@@ -66,14 +66,14 @@ p {
     line-height: 1.4;
 }
 
-header {
+header .header-bar {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     margin: 30px 0px;
 }
 
-header nav {
+header .header-bar nav {
     display: flex;
     justify-content: space-around;
     font-size: 14px;
@@ -81,7 +81,7 @@ header nav {
     width: 80%;
 }
 
-header nav a {
+header .header-bar nav a {
     color: black;
     text-decoration: none;
 }
@@ -91,7 +91,7 @@ header nav a {
     margin: 0 auto;
 }
 
-.top-content img {
+header .header-img {
     margin-bottom: 20px;
 }
 
@@ -104,76 +104,44 @@ header nav a {
 }
 
 .top-content .text-container {
-    width: 48%;
+    width: 100%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
 .middle-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
     margin-bottom: 20px;
+}
+
+.middle-content img {
+    width: 100%;
+    margin-bottom: 7px;
+}
+
+.middle-content p {
+    margin-bottom: 20px;
+}
+
+.middle-content button {
+    background: white;
+    padding: 7px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.middle-content .text-container {
+    width: 48%;
+    padding-bottom: 20px;
     border-bottom: 1px dashed black;
+    margin: 15px 0px 40px;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
-
-.middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.middle-content .boxes div {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.middle-content .boxes .box01{
-    background: teal;
-}
-
-.middle-content .boxes .box02{
-    background: gold;
-}
-
-.middle-content .boxes .box03{
-    background: cadetblue;
-}
-
-.middle-content .boxes .box04{
-    background: coral;
-}
-
-.middle-content .boxes .box05{
-    background: crimson;
-}
-
-.middle-content .boxes .box06{
-    background: forestgreen;
-}
-
-.middle-content .boxes .box07{
-    background: darkorchid;
-}
-
-.middle-content .boxes .box08{
-    background: hotpink;
-}
-
-.middle-content .boxes .box09{
-    background: indigo;
-}
-
-.middle-content .boxes .box10{
-    background: dodgerblue;
+    margin-bottom: 10px;
 }
 
 .bottom-content {

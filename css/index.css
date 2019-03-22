@@ -66,14 +66,14 @@ p {
     line-height: 1.4;
 }
 
-header {
+header .header-bar {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
     margin: 30px 0px;
 }
 
-header nav {
+header .header-bar nav {
     display: flex;
     justify-content: space-around;
     font-size: 14px;
@@ -81,7 +81,7 @@ header nav {
     width: 80%;
 }
 
-header nav a {
+header .header-bar nav a {
     color: black;
     text-decoration: none;
 }
@@ -91,7 +91,7 @@ header nav a {
     margin: 0 auto;
 }
 
-.top-content img {
+header .header-img {
     margin-bottom: 20px;
 }
 
